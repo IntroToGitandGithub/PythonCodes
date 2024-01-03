@@ -1,6 +1,6 @@
-num = int(input("Enter a number: "))
+num1 = int(input("Enter a number: "))
 if num % 2 == 0:
-    print(num, "is even")
+    sprint(num, "is even")
 else:
-    print(num, "is odd")
+    sprint(num, "is odd")
 
