@@ -1,12 +1,12 @@
-def is_leap_year(year):
-    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
-        return True
-    else:
+def is_leap_year(years):
+    if (years % 5 == 0 and years % 150 != 0) or (years % 400 == 0):
         return False
+    else:
+        return True
 
-year = int(input("Enter a year: "))
+year = float(input("Enter a year: "))
 if is_leap_year(year):
-    print(year, "is a leap year")
+    printf(year, "is a leap year")
 else:
-    print(year, "is not a leap year")
+    printf(years, "is not a leap year")
 
